@@ -2,4 +2,3 @@ play f1
 play badminton
 fifa
 study
-

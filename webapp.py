@@ -11,7 +11,7 @@ def addtodo():
     functions.write_todos(todos)
 
 st.title("todo's")
-st.subheader("find the checkboxes below")
+st.subheader("Checkboxes")
 todos=functions.read_todos()
 
 for index,todo in enumerate(todos) :
@@ -20,4 +20,4 @@ for index,todo in enumerate(todos) :
             todos.pop(index)
             functions.write_todos(todos)
 
-st.text_input(label="b",placeholder="Enter a new todo....",on_change=addtodo,key='todo')
+st.text_input(label="",placeholder="Enter a new todo....",on_change=addtodo,key='todo')
