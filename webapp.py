@@ -10,7 +10,7 @@ def addtodo():
     todos.append(todo)
     functions.write_todos(todos)
 
-st.title("This is a todo application")
+st.title("todo's")
 st.subheader("find the checkboxes below")
 todos=functions.read_todos()
 
